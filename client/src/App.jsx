@@ -3,7 +3,7 @@ import { Routes, Route, Navigate } from 'react-router-dom'
 import SignIn from './pages/SignIn'
 import SignUp from './pages/Signup'
 import Customize from './pages/Customize'
-import { userDataContext } from './context/userContext'
+import { userDataContext } from './context/UserContext'
 import Customize2 from './pages/Customize2'
 import Home from './pages/Home'
 
