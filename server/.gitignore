@@ -1,6 +1,5 @@
 .env
 node_modules
-.gitkeep
 # Logs
 logs
 *.log
