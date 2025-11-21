@@ -4,7 +4,7 @@ import axios from "axios"
 export const userDataContext = createContext()
 
 function UserContext({ children }) {
-    const serverUrl = "https://jarvis-ai-b7dn.onrender.com";
+    const serverUrl = "https://jarvis-ai-backend-qhnl.onrender.com";
     const [userData, setUserData] = useState(null);
     const [frontentImage, setFrontentImage] = useState(null)
     const [backendImage, setBackendImage] = useState(null)
