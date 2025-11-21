@@ -9,7 +9,7 @@ function UserContext({ children }) {
     const [frontentImage, setFrontentImage] = useState(null)
     const [backendImage, setBackendImage] = useState(null)
     const [selectedImage, setSelectedImage] = useState(null)
-    const handleCurrentUser = async () => {
+    const handlecurrentUser = async () => {
         try {
             const result = await axios.get(`${serverUrl}/api/user/current`, { withCredentials: true })
             console.log(result.data)
@@ -28,7 +28,7 @@ function UserContext({ children }) {
         }
     }
     useEffect(() => {
-        handleCurrentUser();
+        handlecurrentUser();
     }, [])
 
     const value = {
